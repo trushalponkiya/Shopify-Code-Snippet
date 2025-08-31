@@ -1,0 +1,11 @@
+{% comment %}
+  This snippet is used to render the API response for a product card.
+{% endcomment %}
+
+{% if search.performed %}
+    {%- for item in search.results -%}
+        {%- if item.object_type == 'product' -%}
+            {%- render 'product-card', product: item -%}
+        {%- endif -%}
+    {%- endfor -%}
+{% endif %}

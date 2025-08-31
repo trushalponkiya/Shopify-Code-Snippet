@@ -1,2 +1,3 @@
 # Shopify-Code-Snippet
-Usefull code snippets for shopify theme development 
+
+Shopify code examples and tips.
